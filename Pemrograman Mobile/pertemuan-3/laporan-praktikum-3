@@ -1,0 +1,117 @@
+# 🪐Laporan Praktikum 3: Core Components dan Styling
+
+### Langkah 1: Import Library & Components
+
+1. Buka File App.js yang ada di folder projek ptmn2
+2. Import Library dan Component yang diperlukan
+3. Konfirmasi Bukti
+   ![alt text](image-3.png)
+
+### Langkah 2: Merubah tampilan App.js
+
+1. Buat Objek Array bernama PROFILE untuk wadah data profile
+2. Masukkan Data yang Diperlukan
+3. Konfirmasi Bukti
+   ![alt text](image.png)
+   ![alt text](image-1.png)
+   ![alt text](image-2.png)
+   ![alt text](image-4.png)
+   ![alt text](image-5.png)
+
+### Langkah 3: Sub-Components (SkillCard & TimelineCard)
+
+1. Buat komponen SkillCard untuk menampilkan data skill
+2. Buat komponen TimelineCard untuk menampilkan data pengalaman dan pendidikan
+3. Tambahkan kode di antara data dan fungsi App()
+4. Konfirmasi Bukti
+   ![alt text](image-6.png)
+   ![alt text](image-7.png)
+
+## 📝 LANGKAH 4 — State Management dengan useState
+
+1. Import useState dari React
+2. Tambahkan state di dalam fungsi `App()`
+3. Gunakan useState untuk mengatur data yang dapat berubah
+4. Konfirmasi Bukti
+   ![alt text](image-8.png)
+   ![alt text](image-9.png)
+   ![alt text](image-10.png)
+
+## 📝 LANGKAH 5 — SafeAreaView, StatusBar & Header
+
+1. Gunakan SafeAreaView sebagai container utama
+2. Tambahkan StatusBar untuk mengatur tampilan status bar
+3. Buat View sebagai header aplikasi
+4. Tambahkan Switch untuk mengatur status Open to Work
+5. Konfirmasi Bukti
+   ![alt text](image-11.png)
+   ![alt text](image-12.png)
+   ![alt text](image-6-1.png)
+
+## 📝 LANGKAH 6 — ScrollView & Profil Section (View, Text, img/image)
+
+1. Tambahkan ScrollView untuk membungkus seluruh konten CV
+2. Buat section profil menggunakan View
+3. Tambahkan foto profil menggunakan Image
+4. Tambahkan nama, jabatan, bio, email, lokasi, dan nomor telepon menggunakan Text
+5. Tambahkan tombol sosial media dan Download CV
+6. Konfirmasi Bukti
+
+![alt text](image-13.png)
+![alt text](image-14.png)
+
+## 📝 LANGKAH 7 — FlatList (Daftar Skills)
+
+1. Buat array SKILLS untuk menyimpan data keahlian
+2. Tambahkan FlatList untuk menampilkan daftar skills
+3. Gunakan SkillCard untuk merender setiap item skill
+4. Tambahkan pemisah antar item
+5. Konfirmasi Bukti
+   ![alt text](image-15.png)
+
+## 📝 LANGKAH 8 — SectionList (Pengalaman & Pendidikan)
+
+1. Buat array SECTIONS untuk menyimpan data pengalaman dan pendidikan
+2. Tambahkan SectionList untuk menampilkan data berdasarkan kategori
+3. Gunakan TimelineCard untuk merender setiap item
+4. Tambahkan renderSectionHeader untuk menampilkan judul setiap kategori
+5. Konfirmasi Bukti
+   ![alt text](image-16.png)
+
+## 📝 LANGKAH 9 — TextInput, Button & ActivityIndicator
+
+1. Tambahkan TextInput untuk input nama
+2. Tambahkan TextInput untuk input pesan
+3. Tambahkan Button untuk mengirim pesan
+4. Tambahkan ActivityIndicator sebagai loading saat pesan dikirim
+5. Tambahkan Alert untuk menampilkan pesan berhasil terkirim
+6. Konfirmasi Bukti
+   ![alt text](image-17.png)
+
+## 📝 LANGKAH 10 — Modal (Popup Detail)
+
+1. Buat Modal untuk menampilkan detail pengalaman dan pendidikan
+2. Gunakan selectedItem untuk menyimpan data yang dipilih
+3. Gunakan modalVisible untuk mengatur tampilan modal
+4. Tambahkan tombol tutup pada modal
+5. Konfirmasi Bukti
+   ![alt text](image-18.png)
+
+## 📝 LANGKAH 11 — StyleSheet (Styling Terpusat)
+
+1. Buat konstanta COLORS untuk menyimpan warna aplikasi
+2. Buat StyleSheet.create() untuk mengatur tampilan aplikasi
+3. Tambahkan style untuk Header, Profile, Social Media, Skill Card, Timeline Card, TextInput, Loading, dan Modal
+4. Konfirmasi Bukti
+   ![alt text](image-19.png)
+   ![alt text](image-20.png)
+   ![alt text](image-21.png)
+   ![alt text](image-22.png)
+   ![alt text](image-23.png)
+   ![alt text](image-24.png)
+   ![alt text](image-25.png)
+   ![alt text](image-26.png)
+
+## ✅ Hasil Akhir
+
+<video controls src="p-apa.mp4" title="Title"></video>
